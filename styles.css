@@ -26,12 +26,34 @@ body {
     height: 240px;
     box-shadow: inset 5px 5px 21px #131418, inset -5px -5px 21px #131418;
 }
-#MyDate{
+#MyDate {
     font-size: 22px;
     margin: 0px 0px 20px 0px;
 }
 
-.clock:hover{
+.clock:hover {
     background: #1f2129;
     color: #3dbedbb9;
+}
+@media (max-width: 600px) {
+    .clock {
+        font-size: 30px;
+        width: 300px;
+        height: 250px;
+    }
+    #MyDate {
+        text-align: center;
+    }
+}
+@media (max-width: 450px) {
+    .clock {
+        font-size: 30px;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    #MyDate {
+        font-size: 18px;
+        text-align: center;
+    }
 }
