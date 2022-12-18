@@ -1,0 +1,28 @@
+body {
+    background: #1f2129;
+}
+@font-face {
+    font-family: clockFont;
+    src: url(font/digital-7\ \(mono\).ttf);
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #151618; */
+    background: #30323b;
+    color: #17d4fe;
+    font-family: clockFont;
+    font-size: 60px;
+    letter-spacing: 7px;
+    padding: 2rem 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 40px;
+    width: 400px;
+    height: 100px;
+    box-shadow: inset 5px 5px 21px #131418, inset -5px -5px 21px #131418;
+
+}
